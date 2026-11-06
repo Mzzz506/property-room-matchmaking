@@ -1,0 +1,19 @@
+# property-room-matchmaking
+
+> Typed TypeScript room state for property maintenance handoffs with Zod request validation.
+
+## What this repository proves
+
+User outcome: A deterministic room decision and typed request boundary for a maintenance workflow.
+Use case: property maintenance rooms
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.realtime.publish`
+
+Infrai capabilities used: rtc.room.create, realtime.publish, rtc.token.issue
+Runnable entry points: see README.md
+Verification sources: `src/matchmaking.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt

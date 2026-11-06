@@ -1,0 +1,18 @@
+{
+  "name": "property-room-matchmaking",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "demo": "node --experimental-strip-types src/property_room_demo.ts",
+    "test": "node --experimental-strip-types --test src/matchmaking.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  },
+  "license": "MIT"
+}
